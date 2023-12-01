@@ -1,8 +1,9 @@
 package com.mysite.sbb.answer;
 
+import com.mysite.sbb.question.Question;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import com.mysite.sbb.question.Question;
+
 import java.time.LocalDateTime;
 
 @RequiredArgsConstructor

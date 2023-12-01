@@ -14,9 +14,10 @@ public class Answer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String content;
 
     @Column(columnDefinition = "TEXT")
+    private String content;
+
     private LocalDateTime createDate;
 
     @ManyToOne
