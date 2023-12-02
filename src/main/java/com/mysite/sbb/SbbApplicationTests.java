@@ -1,2 +1,4 @@
-package com.mysite.sbb;public class SbbApplicationTests {
+package com.mysite.sbb;
+
+public class SbbApplicationTests {
 }
